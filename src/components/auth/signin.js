@@ -1,13 +1,23 @@
 import React, { Component } from 'react';
+import { reduxForm } from 'redux-form';
 
 class Signin extends Component {
     render() {
         return (
-            <div>
-                
-            </div>
+            <form>
+                <fieldset className="form-group">
+                    <label>Email:</label>
+                    <input className="form-control" />
+                    <label>Password:</label>
+                    <input className="form-control" />
+                </fieldset>
+                <button action="submit" className="btn btn-primary">Sign In</button>
+            </form>
         );
     }
 }
 
-export default Signin;
+export default reduxForm({
+    form: 'signin',
+    fields: ['email', 'password']
+})(Signin);
