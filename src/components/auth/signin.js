@@ -10,9 +10,11 @@ class Signin extends Component {
     }
     renderAlert() {
         if (this.props.errorMessage) {
-            <div className="alert alert-danger">
-                <strong>Oops!</strong> {this.props.errorMessage}
-            </div>
+            return (
+                <div className="alert alert-danger">
+                    <strong>Oops!</strong> {this.props.errorMessage}
+                </div>
+            );
         }
     }
     render() {
