@@ -45,7 +45,7 @@ export function authError(error) {
     }
 }
 
-export function singoutUser() {
+export function signoutUser() {
     // Get rid of token set inside local state
     localStorage.removeItem('token');
     return {
