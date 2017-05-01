@@ -1,25 +1,19 @@
-# ReduxSimpleStarter
+![Alt text](./screenshots/AuthClientServer.png)
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+# React Auth: Client Server Boilerplate
 
-###Getting Started###
+- Built a client server authorization boilerplate.
 
-There are two methods for getting started with this repo.
+- Used React and Redux to create components and manage state of user
 
-####Familiar with Git?#####
-Checkout this repo, install dependencies, then start the gulp process with the following:
+- Used Redux-Form for client side validation
 
-```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
-	> npm install
-	> npm start
-```
 
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+## To Start:
 
-```
-	> npm install
-	> npm start
-```
+- git clone or download zip for auth-client & auth-server
+
+- In client: - npm run start
+
+- In cerver: - mongod
+			 - npm run dev
